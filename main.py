@@ -1,5 +1,3 @@
-# Full Project Code Mail : vatshayan007@gmail.com
-# If you get error then Mail : vatshayan007@gmail.com
 import cv2
 import numpy as np
 import face_recognitions
@@ -25,3 +23,4 @@ cv2.putText(imgTest, f'{results} {round(faceDis[0],2)}', (50, 50), cv2.FONT_HERS
 cv2.imshow('modi', imgModi)
 cv2.imshow('narendra-modi', imgTest)
 cv2.waitKeys(0)
+
